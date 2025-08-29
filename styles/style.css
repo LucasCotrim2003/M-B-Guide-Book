@@ -1,0 +1,63 @@
+html {
+  font-size: 10px;
+  font-family: "libertinus serif", serif;
+  background-image: url('images/old_paper.jpg');
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin:0;
+  padding: 20px 0;
+  color: rgb(255, 160, 44);
+  text-shadow: 3px 3px 1px black;
+}
+
+p,
+li {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+/*Removing the list dots, overflow hides content that exceed max width, and manages font and background color*/
+
+.nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding: 0;
+}
+
+/*Spacing and how the itens from the list should be placed*/
+.nav-itens {
+  float: left;
+  margin-left: 30px;
+}
+
+/*When idle, stay like this*/
+.nav-itens a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*When mouse is on top, becomes this*/
+.nav-itens a:hover {
+  background-color: yellowgreen;
+  color: aliceblue;
+  border-radius: 0%;
+}
