@@ -17,6 +17,15 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin:0;
+  padding: 20px 0;
+  color: rgb(255, 195, 122);
+  text-shadow: 3px 3px 1px black;
+}
+
 p,
 li {
   font-size: 20px;
@@ -40,7 +49,7 @@ img {
 nav{
   width: 100%;
   margin: auto;
-  background-color: blanchedalmond;
+  background-color:rgb(255, 195, 122);
 }
 
 nav ul {
