@@ -1,19 +1,27 @@
+/*General*/
 html {
   font-size: 10px;
   font-family: "libertinus serif", serif;
   background-image: url('images/old_paper.jpg');
 }
 
+body {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 main {
-  width: 80%;
+  width: 80dvw;
   margin: auto;
 }
+
 h1 {
   font-size: 60px;
   text-align: center;
   margin:0;
   padding: 20px 0;
-  color: rgb(255, 160, 44);
+  color: rgb(255, 195, 122);
   text-shadow: 3px 3px 1px black;
 }
 
@@ -33,18 +41,12 @@ li {
   letter-spacing: 1px;
 }
 
-body {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
 img {
   margin: 0 auto;
   display: block;
-  max-width: 100%;
+  max-width: 80dvh;
 }
-/*Removing the list dots, overflow hides content that exceed max width, and manages font and background color*/
+
 
 nav{
   width: 100%;
@@ -57,6 +59,7 @@ nav ul {
   overflow: hidden;
   margin: auto;
   /*isso deixa o navbar colado no teto :D*/
+  /*Removing the list dots, overflow hides content that exceed max width, and manages font and background color*/
 }
 
 /*Spacing and how the itens from the list should be placed*/
@@ -79,4 +82,9 @@ nav ul {
   background-color: yellowgreen;
   color: aliceblue;
   border-radius: 0%;
+}
+
+/*Faction Page*/
+#tip {
+  background-color: rgb(255, 195, 122);
 }
