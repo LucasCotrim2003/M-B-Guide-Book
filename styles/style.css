@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 45px;
   text-align: center;
   margin:0;
   padding: 20px 0;
@@ -87,4 +87,9 @@ nav ul {
 /*Faction Page*/
 #tip {
   background-color: rgb(255, 195, 122);
+}
+
+/*Table*/
+table, th, td {
+  border: 1px solid black;
 }
